@@ -110,7 +110,7 @@ const Navbar = ({ isDark, setIsDark }) => (
           {isDark ? <Moon size={10} className="text-[#0a192f]" /> : <Sun size={10} className="text-white" />}
         </motion.div>
       </motion.button>
-      <a href="public/myCV.pdf" download className={`border-2 px-6 py-2 rounded-sm transition tracking-widest font-bold ${isDark ? 'border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda] hover:text-[#0a192f]' : 'border-[#0a192f] text-[#0a192f] hover:bg-[#0a192f] hover:text-white'}`}>RESUME</a>
+      <a href="./myCV.pdf" download className={`border-2 px-6 py-2 rounded-sm transition tracking-widest font-bold ${isDark ? 'border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda] hover:text-[#0a192f]' : 'border-[#0a192f] text-[#0a192f] hover:bg-[#0a192f] hover:text-white'}`}>RESUME</a>
     </div>
   </nav>
 );
