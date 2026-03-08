@@ -168,7 +168,7 @@ const App = () => {
               <div className="relative w-64 h-64 group">
                 <div className={`absolute inset-0 border-2 rounded-sm translate-x-5 translate-y-5 transition-all duration-500 ${isDark ? 'border-[#64ffda]' : 'border-[#0a192f]'}`}></div>
                 <div className={`${themeClasses.card} overflow-hidden relative aspect-square border-2 ${isDark ? 'border-[#64ffda]' : 'border-[#0a192f]'}`}>
-                  <img src="public/aa.jpeg" alt="Anukul Singh Bisht" className="w-full h-full object-center opacity-80 hover:opacity-100 transition-all grayscale hover:grayscale-0" />
+                  <img src="aa.jpeg" alt="Anukul Singh Bisht" className="w-full h-full object-center opacity-80 hover:opacity-100 transition-all grayscale hover:grayscale-0" />
                 </div>
               </div>
             </div>
